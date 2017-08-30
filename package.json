@@ -19,6 +19,6 @@
   "homepage": "https://github.com/yshing/ghost-hash#readme",
   "dependencies": {
     "express": "^4.15.4",
-    "ghost": "^1.8.0"
+    "ghost": "git+https://github.com/yshing/Ghost"
   }
 }

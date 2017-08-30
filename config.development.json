@@ -12,6 +12,6 @@
         "port": "4096"
     },
     "paths": {
-        "contentPath": "content/"
+        "contentPath": "content"
     }
 }
