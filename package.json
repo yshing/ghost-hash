@@ -19,6 +19,7 @@
   "homepage": "https://github.com/yshing/ghost-hash#readme",
   "dependencies": {
     "express": "^4.15.4",
-    "ghost": "git+https://github.com/yshing/Ghost"
+    "ghost": "^1.8.0",
+    "rss-instant-article": "git+https://github.com/k2-digital/node-rss-instant-article.git"
   }
 }
