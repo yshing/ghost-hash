@@ -14,7 +14,6 @@ var server = app.listen(4096, function () {
     console.log('Example app listening at http://%s:%s', host, port);
 });
 ghost().then(function (ghostServer){
-    // ghostServer.config(config['development']);
     app.use( ghostServer.rootApp);
     ghostServer.start(server);
 })
