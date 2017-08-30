@@ -1,11 +1,6 @@
 var express = require('express');
-var path = require('path');
-// var ghost = require('./ghost-middleware');
 var ghost = require('ghost')
-
 var app = express();
-var parentApp = express();
-var config = require('./config');
 
 var server = app.listen(4096, function () {
     var host = server.address().address;
