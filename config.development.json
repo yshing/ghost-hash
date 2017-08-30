@@ -1,0 +1,17 @@
+{
+    "url": "http://localhost:4096/",
+    "database": {
+        "client": "sqlite3",
+        "connection": {
+            "filename": "content/data/ghost-local.db"
+        },
+        "debug": true
+    },
+    "server": {
+        "host": "127.0.0.1",
+        "port": "4096"
+    },
+    "paths": {
+        "contentPath": "content/"
+    }
+}
